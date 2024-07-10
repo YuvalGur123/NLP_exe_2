@@ -97,6 +97,8 @@ Tokens: ["Just", "go", "ahead", "and", "press", "that", "button"]
 | 7 |        |        |        |        |        |        | Noun   |
 
 
+
+
       S
     /   \
   NP     VP
