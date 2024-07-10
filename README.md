@@ -3,12 +3,19 @@ CYK algorithm example:
 sentence: Just go ahead and press that button
 
 "Just" → Pronoun
+
 "go" → Verb
+
 "ahead" → Verb
+
 "and" → Conjunction
+
 "press" → Verb
+
 "that" → Det
+
 "button" → Noun
+
 
 S→NP VP
 NP→Pronoun
