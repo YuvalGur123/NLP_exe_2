@@ -18,18 +18,31 @@ sentence: Just go ahead and press that button
 
 
 S→NP VP
+
 NP→Pronoun
+
 NP→Det Noun
+
 VP→Verb
+
 VP→Verb NP
+
 VP→VP Conjunction VP
+
 Det→"that"
+
 Noun→"button"
+
 Verb→"ahead"
+
 Verb→"go"
+
 Verb→"press"
+
 Conjunction→"and"
+
 Pronoun→"Just"
+
 
 Tokens: ["Just", "go", "ahead", "and", "press", "that", "button"]
 
