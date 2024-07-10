@@ -1,28 +1,50 @@
+!!!!!!!!!!!!! Please view the document in raw mode, formatting is messed otherwise !!!!!!!!!!!!!!!!!
+
 CYK algorithm example:
 
 sentence: Just go ahead and press that button
 
 "Just" → Pronoun
+
 "go" → Verb
+
 "ahead" → Verb
+
 "and" → Conjunction
+
 "press" → Verb
+
 "that" → Det
+
 "button" → Noun
 
+
 S→NP VP
+
 NP→Pronoun
+
 NP→Det Noun
+
 VP→Verb
+
 VP→Verb NP
+
 VP→VP Conjunction VP
+
 Det→"that"
+
 Noun→"button"
+
 Verb→"ahead"
+
 Verb→"go"
+
 Verb→"press"
+
 Conjunction→"and"
+
 Pronoun→"Just"
+
 
 Tokens: ["Just", "go", "ahead", "and", "press", "that", "button"]
 
@@ -75,6 +97,8 @@ Tokens: ["Just", "go", "ahead", "and", "press", "that", "button"]
 | 6 |        |        |        |        |        | Det    | NP     |
 --------------------------------------------------------------------
 | 7 |        |        |        |        |        |        | Noun   |
+
+
 
 
       S
